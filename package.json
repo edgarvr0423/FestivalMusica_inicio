@@ -11,5 +11,8 @@
     "Gulp"
   ],
   "author": "Edgar freelancer",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
 }
