@@ -1,0 +1,26 @@
+@use "base/variables" as v;
+@use "src/scss/base/variables" as v;
+
+
+.header {
+  background-color: v.$verde;
+  h1 {
+    color: v.$blanco;
+    text-align: center;
+  }
+}
+.navegacion-principal {
+  @include m.tablet {
+    display: flex;
+    gap: 2rem;
+  }
+  a {
+    margin-bottom: 1rem;
+    color: v.$blanco;
+    font-size: 2.4rem;
+
+    &:hover {
+      color: v.$amarillo;
+    }
+  }
+}
